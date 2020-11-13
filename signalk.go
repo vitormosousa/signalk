@@ -82,8 +82,8 @@ func Subscribe(jStr []byte, subsc string) (float64, error) {
 		//fmt.Println(i, s)
 		for _, s1 := range s.Values {
 			//fmt.Println("subscribed", s1)
-			fmt.Println("subscribed path: ", s1.Path)
-			fmt.Println("subscribed valor: ", s1.Valor)
+			log.Info("subscribed path: ", s1.Path)
+			log.Info("subscribed valor: ", s1.Valor)
 			if s1.Path == subsc {
 				return s1.Valor, nil
 			}
