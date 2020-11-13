@@ -1,4 +1,4 @@
-module signalk
+module github.com/vitormosousa/signalk
 
 go 1.15
 
