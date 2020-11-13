@@ -3,7 +3,6 @@ package signalk
 import (
 	"encoding/json"
 	"errors"
-	"fmt"
 	"net/url"
 	"os"
 
